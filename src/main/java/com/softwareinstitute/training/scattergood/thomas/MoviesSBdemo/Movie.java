@@ -38,7 +38,7 @@ public class Movie {
     public String getJsonObjectOfMovie(){
         return "{"+
                 "\"title\" : \" " + title + "\"," +
-                "\"runtime\" : \" " + runtime + "\"" +
+            //    "\"runtime\" : \" " + runtime + "\", " +
                 "\"genre\" : \" " + genre + "\"" +
                 "}";
     }
